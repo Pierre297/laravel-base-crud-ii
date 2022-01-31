@@ -15,7 +15,7 @@
 
     <form action="{{ route('update', $movie -> id) }}" method="POST">
 
-        @method("POST")
+        @method("POST") 
         @csrf
 
         <label for="title">Title:</label>
